@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09F36D9139C515F2AD5DA219 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 677E22DEEA263AFFD00B8804 /* libPods.a */; };
 		34EFFB4E1CD0B0CE0074C495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EFFB4D1CD0B0CE0074C495 /* main.m */; };
 		34EFFB511CD0B0CE0074C495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EFFB501CD0B0CE0074C495 /* AppDelegate.m */; };
 		34EFFB541CD0B0CE0074C495 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EFFB531CD0B0CE0074C495 /* ViewController.m */; };
 		34EFFB571CD0B0CE0074C495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EFFB551CD0B0CE0074C495 /* Main.storyboard */; };
 		34EFFB591CD0B0CE0074C495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EFFB581CD0B0CE0074C495 /* Assets.xcassets */; };
 		34EFFB5C1CD0B0CE0074C495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EFFB5A1CD0B0CE0074C495 /* LaunchScreen.storyboard */; };
+		34EFFB651CD0B4140074C495 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EFFB641CD0B4140074C495 /* camera.png */; };
+		34EFFB6F1CD104C00074C495 /* SXPickPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EFFB6C1CD104C00074C495 /* SXPickPhoto.m */; };
+		34EFFB701CD104C00074C495 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EFFB6E1CD104C00074C495 /* UIImage+FixOrientation.m */; };
+		34EFFB731CD10AC40074C495 /* RequestPostUploadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EFFB721CD10AC40074C495 /* RequestPostUploadHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20E3EDC2D08AD5E154CDFE8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		34EFFB491CD0B0CE0074C495 /* HWRProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWRProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EFFB4D1CD0B0CE0074C495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34EFFB4F1CD0B0CE0074C495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,16 @@
 		34EFFB581CD0B0CE0074C495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EFFB5B1CD0B0CE0074C495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34EFFB5D1CD0B0CE0074C495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EFFB641CD0B4140074C495 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		34EFFB6B1CD104C00074C495 /* SXPickPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPickPhoto.h; sourceTree = "<group>"; };
+		34EFFB6C1CD104C00074C495 /* SXPickPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXPickPhoto.m; sourceTree = "<group>"; };
+		34EFFB6D1CD104C00074C495 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		34EFFB6E1CD104C00074C495 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		34EFFB711CD10AC40074C495 /* RequestPostUploadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RequestPostUploadHelper.h; path = SXphotoView/RequestPostUploadHelper.h; sourceTree = "<group>"; };
+		34EFFB721CD10AC40074C495 /* RequestPostUploadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RequestPostUploadHelper.m; path = SXphotoView/RequestPostUploadHelper.m; sourceTree = "<group>"; };
+		34EFFB751CD10C5B0074C495 /* UrlDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlDefine.h; sourceTree = "<group>"; };
+		677E22DEEA263AFFD00B8804 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55BC88184943C09CD76226B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F36D9139C515F2AD5DA219 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046A7B3BF504BA783EF0F52F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E3EDC2D08AD5E154CDFE8E /* Pods.debug.xcconfig */,
+				D55BC88184943C09CD76226B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34EFFB401CD0B0CE0074C495 = {
 			isa = PBXGroup;
 			children = (
 				34EFFB4B1CD0B0CE0074C495 /* HWRProject */,
 				34EFFB4A1CD0B0CE0074C495 /* Products */,
+				046A7B3BF504BA783EF0F52F /* Pods */,
+				936F2129417E54B341B622B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +86,9 @@
 		34EFFB4B1CD0B0CE0074C495 /* HWRProject */ = {
 			isa = PBXGroup;
 			children = (
+				34EFFB741CD10C4D0074C495 /* Define */,
+				34EFFB661CD0FD130074C495 /* Tools */,
+				34EFFB631CD0B4040074C495 /* Images */,
 				34EFFB4F1CD0B0CE0074C495 /* AppDelegate.h */,
 				34EFFB501CD0B0CE0074C495 /* AppDelegate.m */,
 				34EFFB521CD0B0CE0074C495 /* ViewController.h */,
@@ -79,6 +110,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		34EFFB631CD0B4040074C495 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				34EFFB641CD0B4140074C495 /* camera.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		34EFFB661CD0FD130074C495 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				34EFFB711CD10AC40074C495 /* RequestPostUploadHelper.h */,
+				34EFFB721CD10AC40074C495 /* RequestPostUploadHelper.m */,
+				34EFFB6A1CD104C00074C495 /* SXphotoView */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		34EFFB6A1CD104C00074C495 /* SXphotoView */ = {
+			isa = PBXGroup;
+			children = (
+				34EFFB6B1CD104C00074C495 /* SXPickPhoto.h */,
+				34EFFB6C1CD104C00074C495 /* SXPickPhoto.m */,
+				34EFFB6D1CD104C00074C495 /* UIImage+FixOrientation.h */,
+				34EFFB6E1CD104C00074C495 /* UIImage+FixOrientation.m */,
+			);
+			path = SXphotoView;
+			sourceTree = "<group>";
+		};
+		34EFFB741CD10C4D0074C495 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				34EFFB751CD10C5B0074C495 /* UrlDefine.h */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		936F2129417E54B341B622B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				677E22DEEA263AFFD00B8804 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34EFFB601CD0B0CE0074C495 /* Build configuration list for PBXNativeTarget "HWRProject" */;
 			buildPhases = (
+				7C9A59A419E05A90A3943AC0 /* Check Pods Manifest.lock */,
 				34EFFB451CD0B0CE0074C495 /* Sources */,
 				34EFFB461CD0B0CE0074C495 /* Frameworks */,
 				34EFFB471CD0B0CE0074C495 /* Resources */,
+				7DC3DF2CD94C83A31F275A60 /* Embed Pods Frameworks */,
+				8E4923F99B93C731A7C82D1A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,11 +184,13 @@
 		34EFFB411CD0B0CE0074C495 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QP;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ChenQianPing;
 				TargetAttributes = {
 					34EFFB481CD0B0CE0074C495 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 66U23U4WWM;
 					};
 				};
 			};
@@ -138,11 +219,60 @@
 			files = (
 				34EFFB5C1CD0B0CE0074C495 /* LaunchScreen.storyboard in Resources */,
 				34EFFB591CD0B0CE0074C495 /* Assets.xcassets in Resources */,
+				34EFFB651CD0B4140074C495 /* camera.png in Resources */,
 				34EFFB571CD0B0CE0074C495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C9A59A419E05A90A3943AC0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC3DF2CD94C83A31F275A60 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4923F99B93C731A7C82D1A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34EFFB451CD0B0CE0074C495 /* Sources */ = {
@@ -152,6 +282,9 @@
 				34EFFB541CD0B0CE0074C495 /* ViewController.m in Sources */,
 				34EFFB511CD0B0CE0074C495 /* AppDelegate.m in Sources */,
 				34EFFB4E1CD0B0CE0074C495 /* main.m in Sources */,
+				34EFFB701CD104C00074C495 /* UIImage+FixOrientation.m in Sources */,
+				34EFFB731CD10AC40074C495 /* RequestPostUploadHelper.m in Sources */,
+				34EFFB6F1CD104C00074C495 /* SXPickPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +392,10 @@
 		};
 		34EFFB611CD0B0CE0074C495 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E3EDC2D08AD5E154CDFE8E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66U23U4WWM;
 				INFOPLIST_FILE = HWRProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenqp.HWRProject;
@@ -270,8 +405,10 @@
 		};
 		34EFFB621CD0B0CE0074C495 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55BC88184943C09CD76226B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66U23U4WWM;
 				INFOPLIST_FILE = HWRProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenqp.HWRProject;
@@ -298,6 +435,7 @@
 				34EFFB621CD0B0CE0074C495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
